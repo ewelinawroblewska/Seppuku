@@ -28,6 +28,10 @@ public class Cell : MonoBehaviour {
         {
             ButtonText.text = valueToSet.ToString();
         }
+        else
+        {
+            ButtonText.text = "";
+        }
     }
 
     private void CellButtonListener()
